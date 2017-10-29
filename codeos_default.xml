@@ -4,14 +4,21 @@
   <remote  name="github"
            fetch="https://github.com" />
 
+  <remote  name="codeos"
+           fetch="https://github.com/Code-OS" />
+
   <remote  name="gzosp"
            fetch="https://github.com/GZOSP" />
 
   <default revision="8.0"
-           remote="gzosp"
+           remote="codeos"
            sync-f="true"
            sync-c="true"
            sync-j="8" />
+
+
+  <!-- CodeOS -->
+  <project path="manifest" name="manifest" remote="codeos" />
 
   <!-- GZOSP -->
   <project path="manifest" name="manifest" remote="gzosp" />
