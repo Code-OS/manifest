@@ -87,4 +87,7 @@
   <project path="system/vold" name="system_vold" groups="pdk" remote="gzosp" />
   <project path="vendor/codeos" name="vendor_codeos" remote="codeos" />
 
+  <!-- ThemeInterfacer -->
+  <project path="packages/apps/ThemeInterfacer" name="interfacer" remote="gzosp" />
+
 </manifest>
