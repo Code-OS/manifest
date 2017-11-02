@@ -76,7 +76,7 @@
   <project path="system/core" name="system_core" groups="pdk" remote="codeos" />
   <project path="system/media" name="system_media" groups="pdk" remote="codeos" />
   <project path="system/nfc" name="system_nfc" groups="pdk" remote="codeos" />
-  <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="gzosp" />
+  <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="codeos" />
   <project path="system/vold" name="system_vold" groups="pdk" remote="codeos" />
   <project path="vendor/codeos" name="vendor_codeos" remote="codeos" />
 
