@@ -49,16 +49,8 @@
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/toybox" />
   <remove-project name="platform/external/wpa_supplicant_8" />
-  <remove-project name="platform/external/ebtables" />
-  <remove-project name="platform/external/exfat" />
-  <remove-project name="platform/external/fuse" />
-  <remove-project name="platform/external/htop" />
-  <remove-project name="platform/external/json-c" />
-  <remove-project name="platform/external/libncurses" />
-  <remove-project name="platform/external/libnfc-nxp" />
   <remove-project name="platform/external/mksh"  />
-  <remove-project name="external/nano" />
- 
+  
   <!-- Hardware repos -->
   <remove-project name="platform/hardware/intel/audio_media" />
   <remove-project name="platform/hardware/intel/bootstub" />
