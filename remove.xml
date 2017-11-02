@@ -84,6 +84,7 @@
   <remove-project name="platform/build/soong" />
   <remove-project name="kernel/tests" />
   <remove-project name="platform/build/kati" />
+  <remove-project name="platform/bootable/recovery" />
 
   <!-- Framework repos -->
   <remove-project name="platform/frameworks/av" />
