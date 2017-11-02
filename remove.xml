@@ -49,7 +49,7 @@
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/toybox" />
   <remove-project name="platform/external/wpa_supplicant_8" />
-  <remove-project name="platform/external/connectivity"" />
+  <remove-project name="platform/external/connectivity" />
   <remove-project name="platform/external/ebtables" />
   <remove-project name="platform/external/exfat" />
   <remove-project name="platform/external/fuse" />
