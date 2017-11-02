@@ -614,13 +614,7 @@
   <project path="tools/tradefederation/contrib" name="platform/tools/tradefederation/contrib" groups="pdk,tradefed" />
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
    
-  <!-- Remove AOSP Repos -->
-  <include name="remove.xml" />
-
   <!-- CodeOS manifest -->
   <include name="codeos.xml" />
-
-   <!-- CodeOS CAF manifest -->
-  <include name="caf.xml" />
    
 </manifest>

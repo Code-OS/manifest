@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+   <!-- Remove AOSP Repos -->
+  <include name="remove.xml" />
+
   <remote  name="github"
            fetch="https://github.com" />
 
@@ -13,6 +16,9 @@
            sync-c="true"
            sync-j="8" />
 
+     <!-- CodeOS CAF manifest -->
+    <include name="caf.xml" />
+   
 <!-- CodeOS -->
   <project path="manifest" name="manifest" remote="codeos" />
   <project path="build/make" name="build" remote="codeos" >
