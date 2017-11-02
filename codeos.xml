@@ -8,13 +8,8 @@
            fetch="https://github.com" />
 
   <remote  name="codeos"
-           fetch="https://github.com/Code-OS" />
-
-  <default revision="8.0"
-           remote="codeos"
-           sync-f="true"
-           sync-c="true"
-           sync-j="8" />
+           fetch="https://github.com/Code-OS"
+           revision="8.0" />
 
      <!-- CodeOS CAF manifest -->
     <include name="caf.xml" />
@@ -39,7 +34,7 @@
   <project path="bionic" name="bionic" groups="pdk" remote="codeos" />
   <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="codeos" />
   <project path="development" name="development" groups="pdk-cw-fs,pdk-fs" remote="codeos" />
-  <project path="device/codeos/sepolicy" name="device_gzosp_sepolicy" remote="codeos" />
+  <project path="device/codeos/sepolicy" name="device_codeos_sepolicy" remote="codeos" />
   <project path="external/connectivity" name="external_connectivity" groups="pdk" remote="codeos" />
   <project path="external/ebtables" name="external_ebtables" groups="pdk" remote="codeos" />
   <project path="external/exfat" name="external_exfat" remote="codeos" />
@@ -58,7 +53,7 @@
   <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="codeos" />
   <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="codeos" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" groups="pdk" remote="codeos" />
-  <project path="hardware/codeos/interfaces" name="hardware_gzosp_interfaces" remote="codeos" >
+  <project path="hardware/codeos/interfaces" name="hardware_codeos_interfaces" remote="codeos" >
       <copyfile dest="hardware/codeos/Android.bp" src="Android.bp"/>
   </project>
   <project path="hardware/broadcom/libbt" name="hardware_broadcom_libbt" groups="pdk" remote="codeos" />
