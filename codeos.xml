@@ -11,6 +11,10 @@
            fetch="https://github.com/Code-OS"
            revision="8.0" />
 
+  <remote  name="lw"
+           fetch="https://github.com/Deletescape-Media"
+           revision="beta" />
+
      <!-- CodeOS CAF manifest -->
     <include name="caf.xml" />
    
@@ -74,6 +78,7 @@
   <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" groups="pdk-cw-fs,pdk-fs" remote="codeos" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="codeos" />
   <project path="packages/apps/Jelly" name="packages_apps_Jelly" remote="codeos" revision="lineage-15.0" />
+  <project path="packages/apps/lawnchair" name="Lawnchair" remote="lw" />
   <project path="system/bt" name="system_bt" groups="pdk" remote="codeos" />
   <project path="system/core" name="system_core" groups="pdk" remote="codeos" />
   <project path="system/media" name="system_media" groups="pdk" remote="codeos" />
