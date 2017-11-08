@@ -10,6 +10,10 @@
   <remote  name="codeos"
            fetch="https://github.com/Code-OS"
            revision="8.0" />
+   
+  <remote  name="code-os-devices"
+           fetch="https://github.com/Code-OS-Devices"
+           revision="refs/heads/8.0" />
 
      <!-- CodeOS CAF manifest -->
     <include name="caf.xml" />
