@@ -1,8 +1,12 @@
 Code-OS
 ========
 
-To initialize your local repository, use this command:
+To initialize your local repository and make CodeOS, use this command:
 
-copy the code paste the run the code given below
-
-	repo init -u https://github.com/Code-OS/manifest.git -b 8.0 && repo sync -c -j8  --force-sync --no-clone-bundle --no-tags
+Copy the given code below and paste in there terminal
+    
+         $ mkdir ~/CodeOS
+	 
+         $ cd ~/CodeOS
+	
+	 repo init -u https://github.com/Code-OS/manifest.git -b 8.0 && repo sync -c -j8  --force-sync --no-clone-bundle --no-tags
